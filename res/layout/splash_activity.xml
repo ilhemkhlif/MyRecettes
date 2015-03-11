@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin_lay"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/NameApp1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textNameapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Recettes"
+        android:textColor="#4b3832"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/NameApp2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<LinearLayout
+     android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imagesushi"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sushi" />
+
+        <ImageView
+            android:id="@+id/imagesup"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sup" />
+
+        <ImageView
+            android:id="@+id/imagehamburger"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/hamburger" />
+
+        <ImageView
+            android:id="@+id/imagecarrot"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/carrot" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imagecoffecup"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/coffecup" />
+
+        <ImageView
+            android:id="@+id/imagecookies"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cake" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/icon_donut_2" />
+
+        <ImageView
+            android:id="@+id/imagepepper"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pepper" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageKiwi"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/kiwi" />
+
+        <ImageView
+            android:id="@+id/imageBanana"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/banana" />
+
+        <ImageView
+            android:id="@+id/imagecherry"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cherry1" />
+
+        <ImageView
+            android:id="@+id/imagelemon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/lemon" />
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

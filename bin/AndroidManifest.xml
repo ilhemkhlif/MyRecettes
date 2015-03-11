@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+   package="com.example.recettes"
+   android:versionCode="1"
+   android:versionName="1.0" >
+
+   <uses-sdk
+      android:minSdkVersion="8"
+      android:targetSdkVersion="17" />
+
+   <application
+      android:allowBackup="true"
+      android:icon="@drawable/icon_donut_2"
+      android:label="@string/app_name">
+      <activity
+         android:name="com.example.recettes.SplashActivity"
+         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+         <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+      </activity>
+      <activity
+         android:name="com.example.recettes.DisplayRecettes"
+         android:label="Ajouter une nouvelle recette" 
+         android:theme="@style/AppBaseTheme">
+            </activity>
+       
+      <activity
+         android:name="com.example.recettes.MainActivity"
+         android:label="@string/title_activity_display_recettes" 
+         android:theme="@style/AppBaseTheme">
+         
+      </activity>
+   </application>
+
+</manifest>
